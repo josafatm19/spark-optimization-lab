@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Spark
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Data — no subas el dataset al repo
+data/raw/
+data/processed/
+*.parquet
+*.json
+*.csv
+
+# OS
+.DS_Store
+EOF
